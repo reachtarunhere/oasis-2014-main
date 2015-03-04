@@ -1,0 +1,18 @@
+{
+  "updates":[
+  	
+
+{"updatetype":"plain","updatetext":"Welcome to BITS Oasis 2014 ! "},
+    
+{"updatetype":"external","updatetext":"Click here to visit our facebook page !","eventurl":"https://www.facebook.com/oasis.bitspilani","linkopentype":"_blank"},
+  {"updatetype":"external","updatetext":"Registrations are now open! Click here to register !","eventurl":"http://bits-oasis.org/register.html","linkopentype":"_blank"},  
+{"updatetype":"external","updatetext":"Registration for Crossfire, Online blogging event now open. Click here.", "eventurl":"http://nirmaan.org/oasis2k14", "linkopentype":"_blank"},
+{"updatetype":"external","updatetext":"Watch the Oasis 2013 Aftermovie!","eventurl":"https://www.youtube.com/watch?v=smbIjwtZmYE","linkopentype":"_blank"},
+{"updatetype":"plain","updatetext":"Click on Elements in the scenery and explore ! "},
+    
+{"updatetype":"plain","updatetext":"Event details upload in progress. Stay tuned ! "},    
+{"updatetype":"plain","updatetext":"All songs used on the website are not the property of Oasis, BITS Pilani and are not meant for commercial use"}
+
+
+]
+}

@@ -1,0 +1,173 @@
+/*Basic Settings*/
+
+body
+{
+	background-color: #161616;
+	margin: 0;
+	font-family: 'Fredoka One', cursive;	
+	color: #FFFFFF;
+	overflow: hidden;
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/*Z-indexes*/
+
+/*
+imgCanvas:9090;
+frontCanvas:10100;
+blackOverlay:10000;
+oasisLogo:10110;
+loading-percent:10110;
+loading-text:10110;
+*/
+
+
+
+#imgCanvas
+{
+	z-index: 9090;
+	position: fixed;
+}
+
+#frontCanvas
+{
+	z-index: 10100;
+	position: fixed;
+}
+
+
+.loading-text
+{
+	position: fixed;
+	z-index: 10110;
+	margin: auto;
+	left: 0;
+	right: 0;
+	bottom: 15px;
+	width: 550px;
+	font-size: 30px;
+	opacity: 0.7;
+}
+
+
+.loading-percent
+{
+	z-index: 10110;
+	position: fixed;
+	color: #FFFFFF;
+	font-weight: 700;
+	font-size: 50px;
+	margin:auto;
+	left:0px;
+	right:0px;
+	bottom: 80px;
+	text-align:center;
+	-webkit-animation: loading 2s infinite; /* Safari 4+ */
+  	-moz-animation:    loading 2s infinite; /* Fx 5+ */
+  	-o-animation:      loading 2s infinite; /* Opera 12+ */
+  	animation:         loading 2s infinite; /* IE 10+, Fx 29+ */
+
+}
+
+.click-to-enter
+{
+	text-align: center;
+	cursor: pointer;
+	z-index: 10210;
+	position: fixed;
+	margin:auto;
+	left: 0;
+	right: 0;
+	/* bottom: 0px; */
+	/* top:0; */ 
+	width: 300px;
+	line-height: 50px;
+	font-size: 25px;
+	display: block;
+	background-color: #FFF;
+	//font-family: 'Open Sans', cursive;
+	opacity: 1;
+	box-shadow: 0px 0px 100px 2px #000;
+	color: #000;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+	
+	
+	
+	bottom: 70px;
+	width:300px;
+}
+
+.click-to-enter:hover
+{
+	opacity: 1; 
+}
+
+.oasislogo
+{
+	position: fixed;
+	top: 20px;
+	left: 10px;
+	z-index: 10110;
+}
+
+@-webkit-keyframes loading {
+  0%,100%   { opacity: 0; }
+  50% { opacity: 1; }
+}
+@-moz-keyframes loading {
+  0%,100%   { opacity: 0; }
+  50% { opacity: 1; }
+}
+@-o-keyframes loading {
+  0%,100%   { opacity: 0; }
+  50% { opacity: 1; }
+}
+@keyframes loading {
+  0%,100%   { opacity: 0; }
+  50% { opacity: 1; }
+}
+
+.blackOverlay
+{
+	position: fixed;
+	z-index: 10000;
+	width:100%;
+	height: 100%;
+	background-color: #000;
+	  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+
+  /* IE 5-7 */
+  filter: alpha(opacity=40);
+
+  /* Netscape */
+  -moz-opacity: 0.4;
+
+  /* Safari 1.x */
+  -khtml-opacity: 0.4;
+
+  /* Good browsers */
+  opacity: 0.4;
+}

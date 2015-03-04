@@ -1,0 +1,441 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+	<title>OASIS 2014 | That 90s Show | BITS Pilani </title>
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="content-language" content="EN">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content = "The stage is set. The crowd is calling. A nostalgic trip to the 90's awaits. 6000 students. 90 colleges. 96 hours. BITS - Pilani presents OASIS 2014 | That '90s Show | 31st Oct - 4th Nov. Be there."/>
+    <meta name = "keywords" content = "Oasis, Cultural Festival, cultfest, cult fest, bits pilani, oasis 2014, that 90s show, bits cultural fest, rocktaves, metamorphosis oasis, fashp, fashp oasis, bits fest, birla institute of technology and science"/>
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <meta name="copyright" content="Copyright © 2014 Department Of Visual Media, BITS Pilani">
+    <meta name="author" content="Department Of Visual Media, BITS Pilani">
+    <meta name="email" content="dvm@bits-oasis.org">
+    <meta name="rating" content="general">
+    <meta name="distribution" content="Global">
+    <meta name="revisit-after" content="1 days">
+	<meta name="google-site-verification" content="L5xTjsQ2T-Y-zP-H60AtkwZlKmqZBKRTRsZzV7LUsiA" />
+    
+	<!-- OPEN GRAPH META DATA-->
+    <meta property="og:title" content="OASIS 2014 | That '90s Show">
+	<meta property="og:site_name" content="OASIS Intro">
+	<meta property="og:url" content="http://www.bits-oasis.org/">
+	<meta property="og:description" content="The stage is set. The crowd is calling. A nostalgic trip to the 90's awaits. 6000 students. 90 colleges. 96 hours. BITS - Pilani presents OASIS 2014 | That '90s Show | 31st Oct - 4th Nov. Be there.">
+	<meta property="og:image" content="http://www.bits-oasis.org/images/fbshare.jpg">
+	<meta property="og:type" content="website">
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	
+	<script type="text/javascript">
+    	if(document.images) {
+        	(new Image()).src="./img/back-img.jpg";
+        	(new Image()).src="./images/main_character.png";
+        	(new Image()).src="./images/forestGround.png";
+        	(new Image()).src="./images/bridgeWater.png";
+        	(new Image()).src="./images/beachGround.png";
+        	(new Image()).src="./images/cityground.png";
+        	(new Image()).src="./images/desertground.jpg";
+        	(new Image()).src="./images/desertforestTransition.png";
+        	(new Image()).src="./images/caveGround.png";
+        	(new Image()).src="./images/musicIcon.png";
+    	}
+	</script>
+
+	</head>
+	
+<body>
+
+	<link rel="stylesheet" type="text/css" href="css/loader.css">
+    <!--<link href='http://fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>-->
+
+    <div class="loader">
+    	<canvas id="imgCanvas" width="1366" height="768"></canvas>
+    	<div class="blackOverlay"></div>
+    	<canvas id="frontCanvas" width="1366" height="768"></canvas>
+    	<div class="loading-text">Hover Around the Screen to Reveal</div>
+    	<div class="loading-percent"></div>
+    	<div class="click-to-enter" style="display:none">Click to Enter</div>
+		<img src="img/logo-oasis14.png" class="oasislogo"/>
+		<img src="images/Navigation.png" style="position:fixed;z-index:10110; top:30px;margin:auto;left:0px;right:0px;" id="navigation" >
+    </div>
+    
+    <script type="text/javascript" src="js/StackBlur.js"></script>
+	<script type="text/javascript" src="js/loader.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/styles.css">
+	<link rel="stylesheet" type="text/css" href="./css/litebox.css">
+
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.26/skrollr.min.js"></script>
+		<script type="text/javascript" src="./js/constants.js"></script>
+	<script type="text/javascript" src="./js/script.js"></script>
+	<script type="text/javascript" src="./js/jquery.kinetic.min.js"></script>
+
+	<script type="text/javascript" src="./js/perfect-scrollbar.js"></script>
+	<link rel="stylesheet" type="text/css" href="./css/perfect-scrollbar.css">
+
+	<link rel="stylesheet" type="text/css" href="./css/musicPlayer.css">
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jplayer/2.7.1/jquery.jplayer/jquery.jplayer.min.js"></script>
+	
+
+	<script type="text/javascript" src="./js/ttw-music-player-min.js"></script>
+	<script type="text/javascript" src="./js/myplaylist.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+			
+        });
+    </script>	
+
+<div class="content-wrapper" style="display:none">
+	<div class="litebox">
+		<div class="black-back"><img src='./images/cursor.png'/></div>
+		<div class="litebox-mainContent-wrapper">
+			<!--Top(music)-Right(art)-Bottom(misc)-Left(oratory)-Right2(dance)-Right3(quizzing)-Left2(drama)-Left3(online)-->
+			<div class="litebox-mainContent">EVENTS</div>
+			<div class="litebox-contentBox-top liteboxTransition liteboxTopOrigin" id="music">MUSIC</div>
+			<div class="litebox-contentBox-right1 liteboxTransition liteboxRightOrigin" id="art">ART</div>
+			<div class="litebox-contentBox-right2 liteboxTransition liteboxRightOrigin" id="dance">DANCE</div>
+			<div class="litebox-contentBox-right3 liteboxTransition liteboxRightOrigin" id="quizzing">QUIZZING</div>
+			<div class="litebox-contentBox-left1 liteboxTransition liteboxLeftOrigin" id="oratory">ORATORY</div>
+			<div class="litebox-contentBox-left2 liteboxTransition liteboxLeftOrigin" id="drama">DRAMA</div>
+			<div class="litebox-contentBox-left3 liteboxTransition liteboxLeftOrigin" id="online">ONLINE</div>
+			<div class="litebox-contentBox-bottom liteboxTransition liteboxBottomOrigin" id="misc">MISC</div>
+		</div>
+
+		<div class="event-list">
+
+		</div>
+
+
+		<div class="event-litebox kinetic-active">
+
+		</div>
+	</div>
+
+	<div class='header'>
+		<div id='events' class='headerContent'><img class="headerIcons" src="./images/eventsIco.png">EVENTS</div>
+		<a href="http://bits-oasis.org/profshow/" target="_new"><div id='profshows' class='headerContent'><img class="headerIcons" src="./images/profshowIco.png">PROFSHOWS</div></a>
+		<div id='about' class='headerContent'><img class="headerIcons" src="./images/aboutIco.png">ABOUT</div>
+		<div id='oasislogo' class='headerContent'><img class="headerLogo" src='./images/logo-oasis14.png'></div>
+		<div id='contacts' class='headerContent'><img class="headerIcons" src="./images/contactsIco.png">CONTACTS</div>
+		<div id='archives' class='headerContent'><img class="headerIcons" src="./images/archivesIco.png">ARCHIVES</div>
+		<div id='sponsors' class='headerContent'><img class="headerIcons" src="./images/sponsorsIco.png">SPONSORS</div>
+		<div id="timelineWrapper" class="timelineWrapper">
+			<div id="timeline" class="timeline"></div>
+		</div>
+	</div>
+	<div id="updatesSlider">UPDATES &nbsp;&nbsp;&nbsp;&nbsp;<img src="./images/updatesIcon.png"></div>
+	<a href="http://bits-oasis.org/register.html" target="_blank"><div class="register">REGISTRATIONS</div></a>
+	
+	<div class='updates'></div>
+
+
+
+
+
+	<div id="main_container">
+		<div id="darkCover"></div>
+		<div id="groundWrapper">
+			<div  class="desertGround ground"></div>
+			<div  class="transition ground"></div>
+			<div class="forestGround ground"></div>
+			<div class="bridgeWaterWrapper ground">
+				<div class="bridgeWater1 ground"></div>
+				<div class="bridgeWater2 ground"></div>	
+			</div>
+			<div class="cityGround ground"></div>
+			<div class="shipWaterWrapper ground">
+				<div class="shipWater1 ground"></div>
+				<div class="shipWater2 ground"></div>	
+			</div>
+			<div class="beachGround ground"></div>
+			<div class="caveGround ground"></div>
+		</div>
+		<div id="layer-3" class="layer">
+			<img src="./images/scene1/backgroundPyramids.png" id="backgroundPyramids">
+			
+			<img src="./images/scene2/blueMountain.png" id="blueMountain">
+
+			<img src="./images/scene3/mountain.png" id="mountain">
+			<img src="./images/scene3/mountain2.png" id="mountain2">
+			<img src="./images/scene3/hillTree.png" id="hillTree1">
+			<img src="./images/scene3/treeLayer-3.png" id="treeLayer-31">
+			<img src="./images/scene3/treeLayer-3.png" id="treeLayer-32">
+			<img src="./images/scene3/billboardTrees.png" id="billboardTrees">
+			<img src="./images/scene3/mamo.png" id="mamoBoard">
+			<img src="./images/scene3/mamo.png" id="mamoBoardAbstract" class="abstractImg">
+
+			<img src="./images/scene4/build3.png" id="build3">
+
+			<img src="./images/scene5/rollerCoaster.png" id="rollerCoaster">
+			<img src="./images/scene5/tent3.png" id="tent3">
+			<img src="./images/scene5/tent3.png" id="tent3Abstract" class="abstractImg">
+			<img src="./images/scene5/tent5.png" id="tent5">
+			<img src="./images/scene5/tent5.png" id="tent5Abstract" class="abstractImg">
+
+			<div id="underwaterBG"></div>
+			<img class="underwaterImg" src="./images/scene6/underwaterBG.png" id="underwaterbackLayer">
+			<img class="underwaterImg" src="./images/scene6/layer1.png" id="underwaterLayer1">
+
+			<img class="underwaterImg underwaterGrass" src="./images/scene6/grass1.png" id="grass1">
+			<img class="underwaterImg underwaterGrass" src="./images/scene6/grass2.png" id="grass2">
+			<img class="underwaterImg underwaterGrass" src="./images/scene6/grass3.png" id="grass3">
+			<img class="underwaterImg underwaterGrass" src="./images/scene6/grass1.png" id="grass4">
+			<img class="underwaterImg underwaterGrass" src="./images/scene6/grass2.png" id="grass5">
+			<img class="underwaterImg underwaterGrass" src="./images/scene6/grass3.png" id="grass6">
+			<img class="underwaterImg underwaterGrass" src="./images/scene6/grass1.png" id="grass7">
+			<img class="underwaterImg underwaterGrass" src="./images/scene6/grass2.png" id="grass8">
+			<img class="underwaterImg underwaterGrass" src="./images/scene6/grass3.png" id="grass9">
+		
+			<img src="./images/scene7/lightHouse.png" id="lightHouse" style="z-index:2">
+			
+			<img src="./images/scene8/caveBackground.png" id="caveBackground1">
+			<img src="./images/scene8/caveBackground.png" id="caveBackground2">
+			<img src="./images/scene8/torch.png" id="torch1">
+			<img src="./images/scene8/torch.png" id="torch2">
+			<img src="./images/scene8/torch.png" id="torch3">
+			<img src="./images/scene8/torch.png" id="torch4">
+			
+		</div>
+		<div id="layer-2" class="layer">
+			<img src="./images/scene1/frontPyramids.png" id="frontPyramids">
+			<img src="./images/scene1/petrolPump.png" id="petrolPump">
+			<img src="./images/scene1/petrolPumpPoster.jpg" id="petrolPumpPoster">
+			<img src="./images/scene1/petrolPumpPoster.jpg" id="petrolPumpPosterAbstract" class="abstractImg">
+						
+			<img src="./images/scene2/bigWind.png" id="bigWind">
+			
+			<img src="./images/scene3/forestBillboard.png" id="forestBillboard">
+			<img src="./images/scene3/forestBillboard.png" id="forestBillboardAbstract" class="abstractImg">
+			<img src="./images/scene3/notificationSpeakers.gif" id="notificationSpeakers">
+			<img src="./images/scene3/notificationSpeakers.gif" id="notificationSpeakersAbstract" class="abstractImg">
+			<img src="./images/scene3/forestHut.png" id="forestHut">
+			<img src="./images/scene3/hillTree.png" id="hillTree2">
+			<img src="./images/scene3/plateau.png" id="plateau">
+			<img src="./images/scene3/treeLayer-2.png" id="treeLayer-21">
+			<img src="./images/scene3/treeLayer-2.png" id="treeLayer-22">
+			
+			<img src="./images/scene4/build1.png" id="build1">
+			<img src="./images/scene4/build2.png" id="build2">
+			<img src="./images/scene4/centralPerk.png" id="centralPerk">
+			<img src="./images/scene4/centralPerk.png" id="centralPerkAbstract" class="abstractImg">
+			<img src="./images/scene4/oasisquiz.png" id="oasisQuiz">
+			<img src="./images/scene4/oasisquiz.png" id="oasisQuizAbstract" class="abstractImg">
+			<img src="./images/scene4/parachute.png" id="parachute">
+			<img src="./images/scene4/parachute.png" id="parachuteAbstract" class="abstractImg">
+			<img src="./images/scene4/jukeBox.png" id="jukebox">
+			<div id="musicNotes">
+				<div class="note" id="note1"></div>
+				<div class="note" id="note2"></div>
+				<div class="note" id="note3"></div>
+			</div>
+
+			<img src="./images/scene5/tent4.png" id="tent2">
+			<img src="./images/scene5/horseswing.png" id="horseSwing">
+			<img src="./images/scene5/dramaBoard.png" id="dramaBoard">
+			<img src="./images/scene5/dramaBoard.png" id="dramaBoardAbstract" class="abstractImg">
+			<img src="./images/scene5/tent2.png" id="tent4">
+			<img src="./images/scene5/tent2.png" id="tent4Abstract" class="abstractImg">
+			<img src="./images/scene5/profshowgif.gif" id="profshow" style="z-index:1;">
+			<img src="./images/scene5/concert.png" id="concert" style="z-index:3;">
+			<a href="http://www.bits-oasis.org/profshow/" target="_blank"><img src="./images/scene5/concert.png" id="concertAbstract" class="abstractImg"></a>
+			<img src="./images/scene5/concertFocusLight.png" id="concertFocusLight1" style="z-index:3;">
+			<img src="./images/scene5/concertFocusLight.png" id="concertFocusLight2" style="z-index:3;">
+			<img src="./images/scene5/concertFocusLight.png" id="concertFocusLight3" style="z-index:3;">
+			<img src="./images/scene5/concertFocusLight.png" id="concertFocusLight4" style="z-index:3;">
+			<img src="./images/scene5/concertFocusLight.png" id="concertFocusLight5" style="z-index:3;">
+			<div id="videoNet" style="z-index:2;"></div>
+			<!-- <video width="650" height="400" autoplay loop id="videoPlay">
+				<source src="./video.mp4" type="video/mp4">
+				<source src="./video.ogg" type="video/ogg">
+				Your browser does not support video
+			</video> -->
+			
+
+			<img class="underwaterImg" src="./images/scene6/layer2.png" id="underwaterLayer2">
+			<img class="underwaterImg underwaterSubmarine" src="./images/scene6/submarine.png" id="submarine">
+			<img class="underwaterImg" src="./images/scene6/rock2.png" id="rock2">
+			<img class="underwaterImg" src="./images/scene6/plant1.png" id="plant1">
+			<img class="underwaterImg" src="./images/scene6/plant2.png" id="plant2">
+			<img class="underwaterImg" src="./images/scene6/plant3.png" id="plant3">
+			<img class="underwaterImg" src="./images/scene6/plant4.png" id="plant4">
+			<img class="underwaterImg" src="./images/scene6/plant5.png" id="plant5">
+			<img class="underwaterImg" src="./images/scene6/stone.png" id="stone">
+			
+			<img src="./images/scene7/snail1.png" id="snail1" style="z-index:2">
+			<img src="./images/scene7/shells2.png" id="shells2" style="z-index:2">
+			<img src="./images/scene7/sandHouse.png" id="sandHouse" style="z-index:2">
+			<img src="./images/scene7/tree1.png" id="tree1" style="z-index:2">
+			<img src="./images/scene7/beachGirl.png" id="beachGirl" style="z-index:2">
+			<img src="./images/scene7/tree3.png" id="tree3" style="z-index:2">
+		</div>
+		<div id="layer-1" class="layer">
+			<img src="./images/scene1/singlePyramid.png" id="singlePyramid">
+			<img src="./images/scene1/cactusBig.png" id="cactusBig1">
+			<img src="./images/scene1/cactusBig.png" id="cactusBig2">
+			<img src="./images/scene1/cactusSmall.png" id="cactusSmall3">
+			<img src="./images/scene1/cactusSmall.png" id="cactusSmall4">
+			<img src="./images/scene1/thisWay.png" id="thisWay">
+			<img src="./images/scene1/mysteryMachine.png" id="mysteryMachine">
+			<img src="./images/scene1/mysteryMachine.png" id="mysteryMachineAbstract" class="abstractImg">
+
+			<img src="./images/scene2/wind.png" id="wind2">
+			<img src="./images/scene2/windFan.png" id="windFan2">
+			<img src="./images/scene2/farmHouse.png" id="farmHouse">
+			
+			<img src="./images/scene3/treeLayer-11.png" id="treeLayer-11">
+			<img src="./images/scene3/treeLayer-11.png" id="treeLayer-12">
+			<img src="./images/scene3/blb.png" id="pokemon1">
+			<img src="./images/scene3/blb.png" id="pokemon1Abstract" class="abstractImg">
+			<img src="./images/scene3/pikachu.png" id="pokemon2">
+			<img src="./images/scene3/pikachu.png" id="pokemon2Abstract" class="abstractImg">
+			<img src="./images/scene2/cart.png" id="cart">
+			<img src="./images/scene2/wind.png" id="wind4">
+			<img src="./images/scene2/windFan.png" id="windFan4">
+			
+			<img src="./images/scene4/phoneBooth.png" id="phoneBooth1">
+			<img src="./images/scene4/contacts.png" id="phoneBooth2">
+			<img src="./images/scene4/contacts.png" id="phoneBooth2Abstract" class="abstractImg">
+
+			
+			<img src="./images/scene5/tent1.png" id="tent1">
+			<img src="./images/scene5/swingstand1.png" id="swingStand1">
+			<img src="./images/scene5/swingstand2.png" id="swingStand2">
+			<img src="./images/scene5/swing1.png" id="swing1">
+			<img src="./images/scene5/swing2.png" id="swing2">
+			<img src="./images/scene5/booth.png" id="booth">
+			<img src="./images/scene5/rockbanner.png" id="rockbanner">
+			<a href="http://www.bits-oasis.org/rocktaves/" target="_blank" > <img src="./images/scene5/rockbanner.png" id="rockbannerAbstract" class="abstractImg"></a>
+
+			<img class="underwaterImg" src="./images/scene6/pole.png" id="pole">
+			<img class="underwaterImg abstractImg" src="./images/scene6/pole.png" id="poleAbstract">
+			<img class="underwaterImg" src="./images/scene6/rock1.png" id="rock1">
+			<img class="underwaterImg" src="./images/scene6/krustycrab.png" id="krustyCrab">
+			<img class="underwaterImg abstractImg" src="./images/scene6/krustycrab.png" id="krustyCrabAbstract">
+			<img class="underwaterImg" src="./images/scene6/archives.png" id="archiveslog">
+			<img class="underwaterImg abstractImg" src="./images/scene6/archives.png" id="archiveslogAbstract">
+			<img class="underwaterImg" src="./images/scene6/trirock1.png" id="triRock1">
+			
+			<img src="./images/scene7/beachGroundUpper.png" id="beachGroundUpper">
+			<img src="./images/scene7/starFish.png" id="starFish">
+			<img src="./images/scene7/shells1.png" id="shells1">
+			<img src="./images/scene7/crab.png" id="crab">
+			<img src="./images/scene7/juice.png" id="juice">
+			<img src="./images/scene7/beachChair.png" id="beachChair">
+			<img src="./images/scene7/beachElements.png" id="beachElements">
+			<img src="./images/scene7/crabDuo.png" id="crabDuo">
+			<img src="./images/scene7/tree2.png" id="tree2">
+			<img src="./images/scene7/hoarding.png" id="hoarding">
+			<img src="./images/scene7/amulAd.png" id="amulAd">
+			<img src="./images/scene7/amulAd.png" id="amulAdAbstract" class="abstractImg">
+			<img src="./images/scene7/stoneBoard.png" id="stoneBoard">
+			<img src="./images/scene7/caveLeft.png" id="caveLeft">
+			<img src="./images/scene7/fashpboard.png" id="fashpBoard">
+			<img src="./images/scene7/fashpboard.png" id="fashpBoardAbstract" class="abstractImg">
+			
+		
+			<img src="./images/scene8/flinstoneCar.png" id="flinstoneCar">
+			<img src="./images/scene8/flinstoneCar.png" id="flinstoneCarAbstract" class="abstractImg">
+			<img src="./images/scene8/treasure.png" id="treasure">
+			<img src="./images/scene8/treasure.png" id="treasureAbstract" class="abstractImg">
+
+		</div>
+		<div id="main_character"></div>
+		<div id="layer-0" class="layer"></div>
+		<div id="layer1" class="layer">
+			<!-- <img src="./images/scene2/cart.png" id="cart"> -->
+			
+			<img src="./images/scene3/noTrespassing.png" id="noTrespassing">
+			
+			<img src="./images/scene4/bridgeRope.png" id="bridgeRope">
+			<img src="./images/scene4/bridgeTower.png" id="bridgeTower1">
+			<img src="./images/scene4/bridgeTower.png" id="bridgeTower2">
+			<img src="./images/scene4/streetLamp.png" id="streetLamp1">
+			<img src="./images/scene4/streetLamp.png" id="streetLamp2">
+			<img src="./images/scene4/streetLamp.png" id="streetLamp3">
+			<img src="./images/scene4/streetLamp.png" id="streetLamp4">
+			<img src="./images/scene4/streetLamp.png" id="streetLamp5">
+			<img src="./images/scene4/streetLamp.png" id="streetLamp6">
+			<img src="./images/scene4/streetLamp.png" id="streetLamp7">
+			<img src="./images/scene4/streetLamp.png" id="streetLamp8">
+
+			<img src="./images/scene5/carnivalRailing.png" id="carnivalRailing">
+			<img src="./images/scene5/woodenDock.png" id="woodenDock">
+			<div id="ship">
+				<div id="smoke">
+  					<span class="s0"></span>
+					<span class="s1"></span>
+					<span class="s2"></span>
+					<span class="s3"></span>
+					<span class="s4"></span>
+					<span class="s5"></span>
+					<span class="s6"></span>
+					<span class="s7"></span>
+					<span class="s8"></span>
+					<span class="s9"></span>
+				</div>
+				<img class="shipImg" src="./images/scene5/ship.png">
+			</div>
+			<img src="./images/scene5/iceBerg.png" id="iceBerg">
+	
+			<img class="underwaterImg" src="./images/scene6/trirock2.png" id="triRock2">
+			<img class="underwaterGround" src="./images/scene6/ground.png" id="underwaterGround">
+			<img class="underwaterImg underwaterAnchor" src="./images/scene6/anchor.png" id="anchor">
+			
+			<img src="./images/scene7/caveRight.png" id="caveRight">
+		</div>
+		<div class="musicplayer">
+			<div id="playSignWrapper"></div>
+		</div>  
+		
+	</div>
+
+	<div id="social_updates">
+			<div id="like_button" class="social_update"><div class="fb-like" data-href="https://www.facebook.com/oasis.bitspilani" data-layout="button_count" data-action="like" data-width="100" data-show-faces="false" data-share="true"></div></div>
+			<div id="follow" class="social_update"><a href="https://twitter.com/bitsoasis" class="twitter-follow-button" data-show-count="false" data-lang="en">Follow @bitsoasis</a></div>
+	</div>
+</div>
+		
+
+	<script type="text/javascript" src="./js/controls.js"></script>
+	<script type="text/javascript" src="./js/ioOperations.js"></script>
+	<script type="text/javascript" src="./js/animateCharacter.js"></script>
+	<script>
+	//FB LIKE SCRIPT
+	/*
+		(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id))
+                return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "http://connect.facebook.net/en_US/all.js#xfbml=1";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+*/
+    </script>
+	
+	<script>
+	//TWITTER 
+	/*
+		!function(d,s,id){
+			var js,fjs=d.getElementsByTagName(s)[0];
+			if(!d.getElementById(id)){
+				js=d.createElement(s);
+				js.id=id;js.src="http://platform.twitter.com/widgets.js";
+				fjs.parentNode.insertBefore(js,fjs);
+			}
+		}(document,"script","twitter-wjs");
+*/
+	</script>
+	
+	<script>
+		 
+
+	</script>
+
+
+	<div id="fb-root"></div>
+</body>
+</html>
